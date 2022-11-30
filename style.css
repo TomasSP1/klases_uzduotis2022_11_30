@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+h2, h1, p {
+    line-height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+#main_div {
+    margin-top: 50px;
+    height: 50%;
+    display: flex;
+    /* width: 500px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.naujas_div {
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 405px;
+    box-shadow: 0 0 5px;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
